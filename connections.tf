@@ -14,7 +14,7 @@ provider "azurerm" {
   client_secret = "${var.client_secret}"
   tenant_id = "${var.tenant_id}"
 }
-#these would normally go in a vars file 
+#these would normally go in a vars file
 variable subscription_id {}
 variable client_id {}
 variable client_secret {}
